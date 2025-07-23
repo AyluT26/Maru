@@ -1,5 +1,5 @@
 window.open(
-  "https://wa.me/5491123456789?text=Hola! Maru,Quiero agendar una sesión✨",
+  "https://wa.link/k7io3f?text=Hola! Maru,Quiero agendar una sesión✨",
   "_blank"
 );
 

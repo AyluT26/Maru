@@ -70,11 +70,11 @@ header {
   color: #c35597;
   font-weight: 600;
   padding: 4px 0;
-  transition: color o.3 ease;
-  -webkit-transition: color o.3 ease;
-  -moz-transition: color o.3 ease;
-  -ms-transition: color o.3 ease;
-  -o-transition: color o.3 ease;
+  transition: color 0.3 ease;
+  -webkit-transition: color 0.3 ease;
+  -moz-transition: color 0.3 ease;
+  -ms-transition: color 0.3 ease;
+  -o-transition: color 0.3 ease;
 }
 
 .nav-list a::after{
@@ -101,7 +101,7 @@ header {
   color: #d16ba5;
   
 }
-.nav-list a::hover::after{
+.nav-list a:hover::after{
   transform: scaleX(1);
   -webkit-transform: scaleX(1);
   -moz-transform: scaleX(1);
