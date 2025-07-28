@@ -327,11 +327,16 @@ display: grid;
 
 /* testimonios */
 .testimonios{
+  display: flex;
   background-color: white;
   padding: 4rem 0;
   text-align: center;
 }
 testimonios-card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   max-width: 300px;
   background-color: #f9f9f9;
   padding: 2rem;
@@ -354,8 +359,10 @@ testimonios-card{
   color: #777;
 }
 .testimonio-img{
+  display: flex;
+  flex-direction: column;
    max-width: 300px;
-  background-color: #f9f9f9;
+  background-color: rgb(238, 123, 238);
   padding: 2rem;
   border-radius: 16px;
   -webkit-border-radius: 16px;
